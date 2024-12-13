@@ -1,0 +1,309 @@
+Training [1/50]:   0%|          | 0/150 [00:00<?, ?batch/s]/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/parallel_apply.py:79: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.device(device), torch.cuda.stream(stream), autocast(enabled=autocast_enabled):
+Training [1/50]: 100%|██████████| 150/150 [03:01<00:00,  1.21s/batch]
+---> Train loss: 0.9216
+---> Train acc: 0.5823
+Validate [1/50]: 100%|██████████| 13/13 [00:16<00:00,  1.23s/batch]
+---> Valid loss: 0.8621
+---> Valid acc: 0.4868
+Model is saved to: /kaggle/working/models/unet-res_epoch1.pth
+Training [2/50]: 100%|██████████| 150/150 [02:53<00:00,  1.16s/batch]
+---> Train loss: 1.1370
+---> Train acc: 0.5126
+Validate [2/50]: 100%|██████████| 13/13 [00:15<00:00,  1.17s/batch]
+---> Valid loss: 0.8560
+---> Valid acc: 0.5264
+Model is saved to: /kaggle/working/models/unet-res_epoch2.pth
+Training [3/50]: 100%|██████████| 150/150 [02:53<00:00,  1.16s/batch]
+---> Train loss: 0.8791
+---> Train acc: 0.5794
+Validate [3/50]: 100%|██████████| 13/13 [00:14<00:00,  1.14s/batch]
+---> Valid loss: 0.8774
+---> Valid acc: 0.4129
+Training [4/50]: 100%|██████████| 150/150 [02:53<00:00,  1.16s/batch]
+---> Train loss: 0.8498
+---> Train acc: 0.5882
+Validate [4/50]: 100%|██████████| 13/13 [00:14<00:00,  1.15s/batch]
+---> Valid loss: 0.8532
+---> Valid acc: 0.5428
+Model is saved to: /kaggle/working/models/unet-res_epoch4.pth
+Training [5/50]: 100%|██████████| 150/150 [02:53<00:00,  1.16s/batch]
+---> Train loss: 0.8243
+---> Train acc: 0.5961
+Validate [5/50]: 100%|██████████| 13/13 [00:15<00:00,  1.17s/batch]
+---> Valid loss: 0.8763
+---> Valid acc: 0.5040
+Training [6/50]: 100%|██████████| 150/150 [02:53<00:00,  1.16s/batch]
+---> Train loss: 0.8431
+---> Train acc: 0.5906
+Validate [6/50]: 100%|██████████| 13/13 [00:15<00:00,  1.18s/batch]
+---> Valid loss: 0.8571
+---> Valid acc: 0.5475
+Training [7/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.8051
+---> Train acc: 0.6041
+Validate [7/50]: 100%|██████████| 13/13 [00:15<00:00,  1.18s/batch]
+---> Valid loss: 0.8467
+---> Valid acc: 0.5394
+Model is saved to: /kaggle/working/models/unet-res_epoch7.pth
+Training [8/50]: 100%|██████████| 150/150 [02:54<00:00,  1.16s/batch]
+---> Train loss: 0.7975
+---> Train acc: 0.6023
+Validate [8/50]: 100%|██████████| 13/13 [00:15<00:00,  1.17s/batch]
+---> Valid loss: 0.8544
+---> Valid acc: 0.5470
+Training [9/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7831
+---> Train acc: 0.6082
+Validate [9/50]: 100%|██████████| 13/13 [00:15<00:00,  1.15s/batch]
+---> Valid loss: 0.8572
+---> Valid acc: 0.5530
+Training [10/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7836
+---> Train acc: 0.6086
+Validate [10/50]: 100%|██████████| 13/13 [00:15<00:00,  1.16s/batch]
+---> Valid loss: 0.8587
+---> Valid acc: 0.5231
+Training [11/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7913
+---> Train acc: 0.6047
+Validate [11/50]: 100%|██████████| 13/13 [00:15<00:00,  1.17s/batch]
+---> Valid loss: 0.8394
+---> Valid acc: 0.5681
+Model is saved to: /kaggle/working/models/unet-res_epoch11.pth
+Training [12/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7717
+---> Train acc: 0.6118
+Validate [12/50]: 100%|██████████| 13/13 [00:15<00:00,  1.19s/batch]
+---> Valid loss: 0.8408
+---> Valid acc: 0.5435
+Training [13/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7769
+---> Train acc: 0.6101
+Validate [13/50]: 100%|██████████| 13/13 [00:15<00:00,  1.16s/batch]
+---> Valid loss: 0.8452
+---> Valid acc: 0.5212
+Training [14/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7927
+---> Train acc: 0.6075
+Validate [14/50]: 100%|██████████| 13/13 [00:14<00:00,  1.13s/batch]
+---> Valid loss: 0.8525
+---> Valid acc: 0.5308
+Training [15/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7614
+---> Train acc: 0.6145
+Validate [15/50]: 100%|██████████| 13/13 [00:14<00:00,  1.13s/batch]
+---> Valid loss: 0.8435
+---> Valid acc: 0.5434
+Training [16/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7804
+---> Train acc: 0.6087
+Validate [16/50]: 100%|██████████| 13/13 [00:15<00:00,  1.18s/batch]
+---> Valid loss: 0.8589
+---> Valid acc: 0.5182
+Training [17/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7777
+---> Train acc: 0.6110
+Validate [17/50]: 100%|██████████| 13/13 [00:15<00:00,  1.21s/batch]
+---> Valid loss: 0.8574
+---> Valid acc: 0.5423
+Training [18/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7553
+---> Train acc: 0.6170
+Validate [18/50]: 100%|██████████| 13/13 [00:14<00:00,  1.13s/batch]
+---> Valid loss: 0.8512
+---> Valid acc: 0.5184
+Training [19/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7632
+---> Train acc: 0.6145
+Validate [19/50]: 100%|██████████| 13/13 [00:14<00:00,  1.15s/batch]
+---> Valid loss: 0.8376
+---> Valid acc: 0.5586
+Model is saved to: /kaggle/working/models/unet-res_epoch19.pth
+Training [20/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7684
+---> Train acc: 0.6142
+Validate [20/50]: 100%|██████████| 13/13 [00:14<00:00,  1.14s/batch]
+---> Valid loss: 0.8564
+---> Valid acc: 0.4929
+Training [21/50]: 100%|██████████| 150/150 [02:51<00:00,  1.15s/batch]
+---> Train loss: 0.7563
+---> Train acc: 0.6155
+Validate [21/50]: 100%|██████████| 13/13 [00:15<00:00,  1.18s/batch]
+---> Valid loss: 0.8496
+---> Valid acc: 0.5502
+Training [22/50]: 100%|██████████| 150/150 [02:51<00:00,  1.14s/batch]
+---> Train loss: 0.7600
+---> Train acc: 0.6134
+Validate [22/50]: 100%|██████████| 13/13 [00:15<00:00,  1.17s/batch]
+---> Valid loss: 0.8517
+---> Valid acc: 0.5376
+Training [23/50]: 100%|██████████| 150/150 [02:51<00:00,  1.15s/batch]
+---> Train loss: 0.7483
+---> Train acc: 0.6172
+Validate [23/50]: 100%|██████████| 13/13 [00:14<00:00,  1.15s/batch]
+---> Valid loss: 0.8588
+---> Valid acc: 0.5324
+Training [24/50]: 100%|██████████| 150/150 [02:51<00:00,  1.15s/batch]
+---> Train loss: 0.7672
+---> Train acc: 0.6134
+Validate [24/50]: 100%|██████████| 13/13 [00:14<00:00,  1.13s/batch]
+---> Valid loss: 0.8592
+---> Valid acc: 0.5311
+Training [25/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7494
+---> Train acc: 0.6156
+Validate [25/50]: 100%|██████████| 13/13 [00:15<00:00,  1.16s/batch]
+---> Valid loss: 0.8551
+---> Valid acc: 0.5494
+Training [26/50]: 100%|██████████| 150/150 [02:51<00:00,  1.14s/batch]
+---> Train loss: 0.7486
+---> Train acc: 0.6184
+Validate [26/50]: 100%|██████████| 13/13 [00:15<00:00,  1.17s/batch]
+---> Valid loss: 0.8433
+---> Valid acc: 0.5588
+Training [27/50]: 100%|██████████| 150/150 [02:51<00:00,  1.14s/batch]
+---> Train loss: 0.7597
+---> Train acc: 0.6152
+Validate [27/50]: 100%|██████████| 13/13 [00:14<00:00,  1.13s/batch]
+---> Valid loss: 0.8479
+---> Valid acc: 0.5488
+Training [28/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7500
+---> Train acc: 0.6164
+Validate [28/50]: 100%|██████████| 13/13 [00:14<00:00,  1.14s/batch]
+---> Valid loss: 0.8366
+---> Valid acc: 0.5692
+Model is saved to: /kaggle/working/models/unet-res_epoch28.pth
+Training [29/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7471
+---> Train acc: 0.6181
+Validate [29/50]: 100%|██████████| 13/13 [00:15<00:00,  1.15s/batch]
+---> Valid loss: 0.8526
+---> Valid acc: 0.5103
+Training [30/50]: 100%|██████████| 150/150 [02:51<00:00,  1.14s/batch]
+---> Train loss: 0.7494
+---> Train acc: 0.6169
+Validate [30/50]: 100%|██████████| 13/13 [00:15<00:00,  1.18s/batch]
+---> Valid loss: 0.8578
+---> Valid acc: 0.4944
+Training [31/50]: 100%|██████████| 150/150 [02:51<00:00,  1.14s/batch]
+---> Train loss: 0.7539
+---> Train acc: 0.6162
+Validate [31/50]: 100%|██████████| 13/13 [00:14<00:00,  1.15s/batch]
+---> Valid loss: 0.8521
+---> Valid acc: 0.5221
+Training [32/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7624
+---> Train acc: 0.6137
+Validate [32/50]: 100%|██████████| 13/13 [00:15<00:00,  1.16s/batch]
+---> Valid loss: 0.8577
+---> Valid acc: 0.5274
+Training [33/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7513
+---> Train acc: 0.6149
+Validate [33/50]: 100%|██████████| 13/13 [00:14<00:00,  1.13s/batch]
+---> Valid loss: 0.8306
+---> Valid acc: 0.5752
+Model is saved to: /kaggle/working/models/unet-res_epoch33.pth
+Training [34/50]: 100%|██████████| 150/150 [02:53<00:00,  1.15s/batch]
+---> Train loss: 0.7447
+---> Train acc: 0.6190
+Validate [34/50]: 100%|██████████| 13/13 [00:15<00:00,  1.17s/batch]
+---> Valid loss: 0.8456
+---> Valid acc: 0.5587
+Training [35/50]: 100%|██████████| 150/150 [02:53<00:00,  1.16s/batch]
+---> Train loss: 0.7699
+---> Train acc: 0.6111
+Validate [35/50]: 100%|██████████| 13/13 [00:15<00:00,  1.19s/batch]
+---> Valid loss: 0.8462
+---> Valid acc: 0.5565
+Training [36/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7420
+---> Train acc: 0.6201
+Validate [36/50]: 100%|██████████| 13/13 [00:14<00:00,  1.13s/batch]
+---> Valid loss: 0.8480
+---> Valid acc: 0.5415
+Training [37/50]: 100%|██████████| 150/150 [02:53<00:00,  1.16s/batch]
+---> Train loss: 0.7353
+---> Train acc: 0.6212
+Validate [37/50]: 100%|██████████| 13/13 [00:14<00:00,  1.13s/batch]
+---> Valid loss: 0.8400
+---> Valid acc: 0.5516
+Training [38/50]: 100%|██████████| 150/150 [02:51<00:00,  1.14s/batch]
+---> Train loss: 0.7418
+---> Train acc: 0.6189
+Validate [38/50]: 100%|██████████| 13/13 [00:14<00:00,  1.14s/batch]
+---> Valid loss: 0.8467
+---> Valid acc: 0.5224
+Training [39/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7544
+---> Train acc: 0.6167
+Validate [39/50]: 100%|██████████| 13/13 [00:15<00:00,  1.20s/batch]
+---> Valid loss: 0.8504
+---> Valid acc: 0.5254
+Training [40/50]: 100%|██████████| 150/150 [02:53<00:00,  1.16s/batch]
+---> Train loss: 0.7329
+---> Train acc: 0.6220
+Validate [40/50]: 100%|██████████| 13/13 [00:15<00:00,  1.19s/batch]
+---> Valid loss: 0.8430
+---> Valid acc: 0.5229
+Training [41/50]: 100%|██████████| 150/150 [02:51<00:00,  1.14s/batch]
+---> Train loss: 0.7393
+---> Train acc: 0.6185
+Validate [41/50]: 100%|██████████| 13/13 [00:14<00:00,  1.14s/batch]
+---> Valid loss: 0.8504
+---> Valid acc: 0.5458
+Training [42/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7437
+---> Train acc: 0.6194
+Validate [42/50]: 100%|██████████| 13/13 [00:14<00:00,  1.14s/batch]
+---> Valid loss: 0.8446
+---> Valid acc: 0.5460
+Training [43/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7533
+---> Train acc: 0.6156
+Validate [43/50]: 100%|██████████| 13/13 [00:15<00:00,  1.19s/batch]
+---> Valid loss: 0.8346
+---> Valid acc: 0.5550
+Training [44/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7411
+---> Train acc: 0.6191
+Validate [44/50]: 100%|██████████| 13/13 [00:15<00:00,  1.16s/batch]
+---> Valid loss: 0.8520
+---> Valid acc: 0.5350
+Training [45/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7268
+---> Train acc: 0.6238
+Validate [45/50]: 100%|██████████| 13/13 [00:14<00:00,  1.15s/batch]
+---> Valid loss: 0.8602
+---> Valid acc: 0.5155
+Training [46/50]: 100%|██████████| 150/150 [02:51<00:00,  1.14s/batch]
+---> Train loss: 0.7387
+---> Train acc: 0.6223
+Validate [46/50]: 100%|██████████| 13/13 [00:14<00:00,  1.13s/batch]
+---> Valid loss: 0.8377
+---> Valid acc: 0.5594
+Training [47/50]: 100%|██████████| 150/150 [02:51<00:00,  1.14s/batch]
+---> Train loss: 0.7427
+---> Train acc: 0.6202
+Validate [47/50]: 100%|██████████| 13/13 [00:14<00:00,  1.13s/batch]
+---> Valid loss: 0.8442
+---> Valid acc: 0.5534
+Training [48/50]: 100%|██████████| 150/150 [02:51<00:00,  1.14s/batch]
+---> Train loss: 0.7403
+---> Train acc: 0.6186
+Validate [48/50]: 100%|██████████| 13/13 [00:15<00:00,  1.17s/batch]
+---> Valid loss: 0.8478
+---> Valid acc: 0.5417
+Training [49/50]: 100%|██████████| 150/150 [02:51<00:00,  1.15s/batch]
+---> Train loss: 0.7337
+---> Train acc: 0.6219
+Validate [49/50]: 100%|██████████| 13/13 [00:14<00:00,  1.14s/batch]
+---> Valid loss: 0.8396
+---> Valid acc: 0.5602
+Training [50/50]: 100%|██████████| 150/150 [02:52<00:00,  1.15s/batch]
+---> Train loss: 0.7376
+---> Train acc: 0.6206
+Validate [50/50]: 100%|██████████| 13/13 [00:14<00:00,  1.14s/batch]---> Valid loss: 0.8467
+---> Valid acc: 0.5360

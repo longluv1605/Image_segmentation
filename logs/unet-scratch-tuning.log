@@ -1,0 +1,1068 @@
+Training with parameters: {'lr': 0.003, 'weight_decay': 0.01, 'optim': 'Adam'}
+Training [1/10]: 100%|██████████| 150/150 [02:43<00:00,  1.09s/batch]
+---> Train loss: 1.4194
+---> Train acc: 0.5431
+Validate [1/10]: 100%|██████████| 13/13 [00:13<00:00,  1.04s/batch]
+---> Valid loss: 1.4113
+---> Valid acc: 0.5127
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.4856
+---> Train acc: 0.5040
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.4584
+---> Valid acc: 0.5132
+Training [3/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.4300
+---> Train acc: 0.5270
+Validate [3/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.3334
+---> Valid acc: 0.5299
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 1.4015
+---> Train acc: 0.5307
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.3936
+---> Valid acc: 0.5252
+Training [5/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.4282
+---> Train acc: 0.5242
+Validate [5/10]: 100%|██████████| 13/13 [00:13<00:00,  1.02s/batch]
+---> Valid loss: 1.4297
+---> Valid acc: 0.5174
+Training [6/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.3743
+---> Train acc: 0.5434
+Validate [6/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.4803
+---> Valid acc: 0.4917
+Training [7/10]: 100%|██████████| 150/150 [02:33<00:00,  1.03s/batch]
+---> Train loss: 1.3589
+---> Train acc: 0.5459
+Validate [7/10]: 100%|██████████| 13/13 [00:13<00:00,  1.04s/batch]
+---> Valid loss: 1.4422
+---> Valid acc: 0.5239
+Training [8/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.3358
+---> Train acc: 0.5509
+Validate [8/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.4201
+---> Valid acc: 0.4798
+Training [9/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.3692
+---> Train acc: 0.5408
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.4120
+---> Valid acc: 0.5172
+Training [10/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.3300
+---> Train acc: 0.5514
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.3635
+---> Valid acc: 0.5215
+Model is saved to: /kaggle/working/tuned/unet_0.003_0.01_Adam.pth
+Training with parameters: {'lr': 0.003, 'weight_decay': 0.01, 'optim': 'SGD'}
+Training [1/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 2.1801
+---> Train acc: 0.4705
+Validate [1/10]: 100%|██████████| 13/13 [00:13<00:00,  1.00s/batch]
+---> Valid loss: 1.8264
+---> Valid acc: 0.5199
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:42<00:00,  1.08s/batch]
+---> Train loss: 1.4915
+---> Train acc: 0.5129
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.00batch/s]
+---> Valid loss: 1.3131
+---> Valid acc: 0.5455
+Model is saved to: /kaggle/working/tuned/unet_epoch2.pth
+Training [3/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.2941
+---> Train acc: 0.5597
+Validate [3/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.6157
+---> Valid acc: 0.3930
+Training [4/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.2100
+---> Train acc: 0.5885
+Validate [4/10]: 100%|██████████| 13/13 [00:13<00:00,  1.00s/batch]
+---> Valid loss: 1.1809
+---> Valid acc: 0.5913
+Model is saved to: /kaggle/working/tuned/unet_epoch4.pth
+Training [5/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.1430
+---> Train acc: 0.6073
+Validate [5/10]: 100%|██████████| 13/13 [00:13<00:00,  1.00s/batch]
+---> Valid loss: 1.1063
+---> Valid acc: 0.5979
+Model is saved to: /kaggle/working/tuned/unet_epoch5.pth
+Training [6/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 1.0968
+---> Train acc: 0.6212
+Validate [6/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.4014
+---> Valid acc: 0.5427
+Training [7/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.0485
+---> Train acc: 0.6339
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.0114
+---> Valid acc: 0.6171
+Model is saved to: /kaggle/working/tuned/unet_epoch7.pth
+Training [8/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 1.0172
+---> Train acc: 0.6446
+Validate [8/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.0072
+---> Valid acc: 0.6205
+Model is saved to: /kaggle/working/tuned/unet_epoch8.pth
+Training [9/10]: 100%|██████████| 150/150 [02:35<00:00,  1.03s/batch]
+---> Train loss: 0.9730
+---> Train acc: 0.6551
+Validate [9/10]: 100%|██████████| 13/13 [00:13<00:00,  1.00s/batch]
+---> Valid loss: 1.1343
+---> Valid acc: 0.5831
+Training [10/10]: 100%|██████████| 150/150 [02:39<00:00,  1.07s/batch]
+---> Train loss: 1.0559
+---> Train acc: 0.6317
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 0.9414
+---> Valid acc: 0.6351
+Model is saved to: /kaggle/working/tuned/unet_epoch10.pth
+Model is saved to: /kaggle/working/tuned/unet_0.003_0.01_SGD.pth
+Training with parameters: {'lr': 0.003, 'weight_decay': 0.001, 'optim': 'Adam'}
+Training [1/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 1.3254
+---> Train acc: 0.5727
+Validate [1/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.2777
+---> Valid acc: 0.5491
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:40<00:00,  1.07s/batch]
+---> Train loss: 1.4222
+---> Train acc: 0.5129
+Validate [2/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.3521
+---> Valid acc: 0.5028
+Training [3/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 1.3107
+---> Train acc: 0.5506
+Validate [3/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.3517
+---> Valid acc: 0.5296
+Training [4/10]: 100%|██████████| 150/150 [02:36<00:00,  1.05s/batch]
+---> Train loss: 1.3146
+---> Train acc: 0.5478
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.2413
+---> Valid acc: 0.5620
+Model is saved to: /kaggle/working/tuned/unet_epoch4.pth
+Training [5/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 1.2888
+---> Train acc: 0.5578
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.3968
+---> Valid acc: 0.5214
+Training [6/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.2809
+---> Train acc: 0.5597
+Validate [6/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.2533
+---> Valid acc: 0.5571
+Training [7/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 1.2323
+---> Train acc: 0.5719
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.3117
+---> Valid acc: 0.5482
+Training [8/10]: 100%|██████████| 150/150 [02:38<00:00,  1.05s/batch]
+---> Train loss: 1.2208
+---> Train acc: 0.5775
+Validate [8/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.2813
+---> Valid acc: 0.5470
+Training [9/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.1983
+---> Train acc: 0.5878
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.1949
+---> Valid acc: 0.5797
+Model is saved to: /kaggle/working/tuned/unet_epoch9.pth
+Training [10/10]: 100%|██████████| 150/150 [02:31<00:00,  1.01s/batch]
+---> Train loss: 1.1982
+---> Train acc: 0.5854
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.2057
+---> Valid acc: 0.5733
+Training with parameters: {'lr': 0.003, 'weight_decay': 0.001, 'optim': 'SGD'}
+Training [1/10]: 100%|██████████| 150/150 [02:40<00:00,  1.07s/batch]
+---> Train loss: 2.2784
+---> Train acc: 0.4405
+Validate [1/10]: 100%|██████████| 13/13 [00:12<00:00,  1.00batch/s]
+---> Valid loss: 1.8664
+---> Valid acc: 0.5041
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.5144
+---> Train acc: 0.5049
+Validate [2/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.4296
+---> Valid acc: 0.4905
+Model is saved to: /kaggle/working/tuned/unet_epoch2.pth
+Training [3/10]: 100%|██████████| 150/150 [02:33<00:00,  1.02s/batch]
+---> Train loss: 1.3745
+---> Train acc: 0.5387
+Validate [3/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.3203
+---> Valid acc: 0.5247
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:38<00:00,  1.05s/batch]
+---> Train loss: 1.2137
+---> Train acc: 0.5876
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.4126
+---> Valid acc: 0.5006
+Training [5/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.1476
+---> Train acc: 0.6056
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.4683
+---> Valid acc: 0.5008
+Training [6/10]: 100%|██████████| 150/150 [02:38<00:00,  1.05s/batch]
+---> Train loss: 1.0794
+---> Train acc: 0.6272
+Validate [6/10]: 100%|██████████| 13/13 [00:13<00:00,  1.03s/batch]
+---> Valid loss: 1.1419
+---> Valid acc: 0.5932
+Model is saved to: /kaggle/working/tuned/unet_epoch6.pth
+Training [7/10]: 100%|██████████| 150/150 [02:33<00:00,  1.02s/batch]
+---> Train loss: 1.0526
+---> Train acc: 0.6349
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.1077
+---> Valid acc: 0.6049
+Model is saved to: /kaggle/working/tuned/unet_epoch7.pth
+Training [8/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.0311
+---> Train acc: 0.6399
+Validate [8/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.1352
+---> Valid acc: 0.5814
+Training [9/10]: 100%|██████████| 150/150 [02:38<00:00,  1.05s/batch]
+---> Train loss: 0.9803
+---> Train acc: 0.6551
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.3393
+---> Valid acc: 0.5356
+Training [10/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 0.9511
+---> Train acc: 0.6625
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 0.9441
+---> Valid acc: 0.6410
+Model is saved to: /kaggle/working/tuned/unet_epoch10.pth
+Model is saved to: /kaggle/working/tuned/unet_0.003_0.001_SGD.pth
+Training with parameters: {'lr': 0.001, 'weight_decay': 0.01, 'optim': 'Adam'}
+Training [1/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 1.3738
+---> Train acc: 0.5863
+Validate [1/10]: 100%|██████████| 13/13 [00:13<00:00,  1.05s/batch]
+---> Valid loss: 1.3148
+---> Valid acc: 0.5363
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:40<00:00,  1.07s/batch]
+---> Train loss: 1.3611
+---> Train acc: 0.5396
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.4212
+---> Valid acc: 0.4861
+Training [3/10]: 100%|██████████| 150/150 [02:31<00:00,  1.01s/batch]
+---> Train loss: 1.2625
+---> Train acc: 0.5700
+Validate [3/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.3085
+---> Valid acc: 0.5378
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 1.2548
+---> Train acc: 0.5697
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.2424
+---> Valid acc: 0.5632
+Model is saved to: /kaggle/working/tuned/unet_epoch4.pth
+Training [5/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 1.2152
+---> Train acc: 0.5828
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.2273
+---> Valid acc: 0.5691
+Model is saved to: /kaggle/working/tuned/unet_epoch5.pth
+Training [6/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.2015
+---> Train acc: 0.5862
+Validate [6/10]: 100%|██████████| 13/13 [00:12<00:00,  1.00batch/s]
+---> Valid loss: 1.2306
+---> Valid acc: 0.5527
+Training [7/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.1975
+---> Train acc: 0.5873
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.00batch/s]
+---> Valid loss: 1.2810
+---> Valid acc: 0.5575
+Training [8/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.2017
+---> Train acc: 0.5859
+Validate [8/10]: 100%|██████████| 13/13 [00:12<00:00,  1.00batch/s]
+---> Valid loss: 1.2655
+---> Valid acc: 0.5449
+Training [9/10]: 100%|██████████| 150/150 [02:31<00:00,  1.01s/batch]
+---> Train loss: 1.1896
+---> Train acc: 0.5885
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.2107
+---> Valid acc: 0.5740
+Model is saved to: /kaggle/working/tuned/unet_epoch9.pth
+Training [10/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 1.2029
+---> Train acc: 0.5848
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: 1.2069
+---> Valid acc: 0.5758
+Model is saved to: /kaggle/working/tuned/unet_epoch10.pth
+Training with parameters: {'lr': 0.001, 'weight_decay': 0.01, 'optim': 'SGD'}
+Training [1/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 2.4828
+---> Train acc: 0.4129
+Validate [1/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 2.1755
+---> Valid acc: 0.4886
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.5614
+---> Train acc: 0.5295
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.4070
+---> Valid acc: 0.5303
+Model is saved to: /kaggle/working/tuned/unet_epoch2.pth
+Training [3/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.3337
+---> Train acc: 0.5577
+Validate [3/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.2765
+---> Valid acc: 0.5623
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 1.2803
+---> Train acc: 0.5705
+Validate [4/10]: 100%|██████████| 13/13 [00:13<00:00,  1.00s/batch]
+---> Valid loss: 1.2857
+---> Valid acc: 0.5520
+Training [5/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.2295
+---> Train acc: 0.5857
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.2151
+---> Valid acc: 0.5737
+Model is saved to: /kaggle/working/tuned/unet_epoch5.pth
+Training [6/10]: 100%|██████████| 150/150 [02:41<00:00,  1.08s/batch]
+---> Train loss: 1.1659
+---> Train acc: 0.6029
+Validate [6/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.1491
+---> Valid acc: 0.5989
+Model is saved to: /kaggle/working/tuned/unet_epoch6.pth
+Training [7/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.1149
+---> Train acc: 0.6197
+Validate [7/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.1103
+---> Valid acc: 0.6055
+Model is saved to: /kaggle/working/tuned/unet_epoch7.pth
+Training [8/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.0807
+---> Train acc: 0.6275
+Validate [8/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: 1.0703
+---> Valid acc: 0.6128
+Model is saved to: /kaggle/working/tuned/unet_epoch8.pth
+Training [9/10]: 100%|██████████| 150/150 [02:40<00:00,  1.07s/batch]
+---> Train loss: 1.0548
+---> Train acc: 0.6363
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: 1.0661
+---> Valid acc: 0.6131
+Model is saved to: /kaggle/working/tuned/unet_epoch9.pth
+Training [10/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 1.0170
+---> Train acc: 0.6472
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.1054
+---> Valid acc: 0.6004
+Training with parameters: {'lr': 0.001, 'weight_decay': 0.001, 'optim': 'Adam'}
+Training [1/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 1.3566
+---> Train acc: 0.6009
+Validate [1/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.2353
+---> Valid acc: 0.5553
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.3916
+---> Train acc: 0.5335
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.2896
+---> Valid acc: 0.5451
+Training [3/10]: 100%|██████████| 150/150 [02:33<00:00,  1.02s/batch]
+---> Train loss: 1.2135
+---> Train acc: 0.5856
+Validate [3/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.1677
+---> Valid acc: 0.5778
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.1499
+---> Train acc: 0.6036
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.2012
+---> Valid acc: 0.5750
+Training [5/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.1395
+---> Train acc: 0.6052
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.1255
+---> Valid acc: 0.5915
+Model is saved to: /kaggle/working/tuned/unet_epoch5.pth
+Training [6/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 1.0979
+---> Train acc: 0.6169
+Validate [6/10]: 100%|██████████| 13/13 [00:13<00:00,  1.03s/batch]
+---> Valid loss: 1.1715
+---> Valid acc: 0.5857
+Training [7/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.0640
+---> Train acc: 0.6277
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.1078
+---> Valid acc: 0.5968
+Model is saved to: /kaggle/working/tuned/unet_epoch7.pth
+Training [8/10]: 100%|██████████| 150/150 [02:36<00:00,  1.05s/batch]
+---> Train loss: 1.0815
+---> Train acc: 0.6220
+Validate [8/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: 1.0818
+---> Valid acc: 0.6025
+Model is saved to: /kaggle/working/tuned/unet_epoch8.pth
+Training [9/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.0564
+---> Train acc: 0.6277
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.0942
+---> Valid acc: 0.5990
+Training [10/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.0436
+---> Train acc: 0.6342
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.1063
+---> Valid acc: 0.5978
+Training with parameters: {'lr': 0.001, 'weight_decay': 0.001, 'optim': 'SGD'}
+Training [1/10]: 100%|██████████| 150/150 [02:35<00:00,  1.03s/batch]
+---> Train loss: 2.5217
+---> Train acc: 0.3901
+Validate [1/10]: 100%|██████████| 13/13 [00:13<00:00,  1.03s/batch]
+---> Valid loss: 2.1925
+---> Valid acc: 0.4533
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:40<00:00,  1.07s/batch]
+---> Train loss: 1.6184
+---> Train acc: 0.5107
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.4195
+---> Valid acc: 0.5312
+Model is saved to: /kaggle/working/tuned/unet_epoch2.pth
+Training [3/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.3221
+---> Train acc: 0.5625
+Validate [3/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.3219
+---> Valid acc: 0.5408
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.2468
+---> Train acc: 0.5794
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.2490
+---> Valid acc: 0.5666
+Model is saved to: /kaggle/working/tuned/unet_epoch4.pth
+Training [5/10]: 100%|██████████| 150/150 [02:40<00:00,  1.07s/batch]
+---> Train loss: 1.1859
+---> Train acc: 0.5989
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.1427
+---> Valid acc: 0.5935
+Model is saved to: /kaggle/working/tuned/unet_epoch5.pth
+Training [6/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 1.1377
+---> Train acc: 0.6087
+Validate [6/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.1937
+---> Valid acc: 0.5852
+Training [7/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 1.0962
+---> Train acc: 0.6222
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.1670
+---> Valid acc: 0.5818
+Training [8/10]: 100%|██████████| 150/150 [02:38<00:00,  1.05s/batch]
+---> Train loss: 1.0475
+---> Train acc: 0.6372
+Validate [8/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.1338
+---> Valid acc: 0.5892
+Model is saved to: /kaggle/working/tuned/unet_epoch8.pth
+Training [9/10]: 100%|██████████| 150/150 [02:33<00:00,  1.02s/batch]
+---> Train loss: 1.0208
+---> Train acc: 0.6461
+Validate [9/10]: 100%|██████████| 13/13 [00:13<00:00,  1.00s/batch]
+---> Valid loss: 1.1391
+---> Valid acc: 0.5790
+Training [10/10]: 100%|██████████| 150/150 [02:39<00:00,  1.07s/batch]
+---> Train loss: 1.0147
+---> Train acc: 0.6484
+Validate [10/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.0936
+---> Valid acc: 0.6042
+Model is saved to: /kaggle/working/tuned/unet_epoch10.pth
+Training with parameters: {'lr': 0.0005, 'weight_decay': 0.01, 'optim': 'Adam'}
+Training [1/10]: 100%|██████████| 150/150 [02:33<00:00,  1.02s/batch]
+---> Train loss: 1.4828
+---> Train acc: 0.6035
+Validate [1/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 2.4991
+---> Valid acc: 0.2642
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:35<00:00,  1.03s/batch]
+---> Train loss: nan
+---> Train acc: 0.4000
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.3987
+Training [3/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: nan
+---> Train acc: 0.3963
+Validate [3/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.3987
+Training [4/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: nan
+---> Train acc: 0.3749
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.3543
+Training [5/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: nan
+---> Train acc: 0.3267
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.00batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.3543
+Training [6/10]: 100%|██████████| 150/150 [02:32<00:00,  1.02s/batch]
+---> Train loss: nan
+---> Train acc: 0.3268
+Validate [6/10]: 100%|██████████| 13/13 [00:12<00:00,  1.00batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.3543
+Training [7/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: nan
+---> Train acc: 0.3268
+Validate [7/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: nan
+---> Valid acc: 0.3543
+Training [8/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: nan
+---> Train acc: 0.3267
+Validate [8/10]: 100%|██████████| 13/13 [00:13<00:00,  1.04s/batch]
+---> Valid loss: nan
+---> Valid acc: 0.3543
+Training [9/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: nan
+---> Train acc: 0.3267
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.3543
+Training [10/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: nan
+---> Train acc: 0.3266
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.3543
+Training with parameters: {'lr': 0.0005, 'weight_decay': 0.01, 'optim': 'SGD'}
+Training [1/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 2.7384
+---> Train acc: 0.2480
+Validate [1/10]: 100%|██████████| 13/13 [00:13<00:00,  1.00s/batch]
+---> Valid loss: 2.5772
+---> Valid acc: 0.3762
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:36<00:00,  1.05s/batch]
+---> Train loss: 1.7332
+---> Train acc: 0.5046
+Validate [2/10]: 100%|██████████| 13/13 [00:13<00:00,  1.02s/batch]
+---> Valid loss: 1.4387
+---> Valid acc: 0.5139
+Model is saved to: /kaggle/working/tuned/unet_epoch2.pth
+Training [3/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 1.3808
+---> Train acc: 0.5393
+Validate [3/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.3843
+---> Valid acc: 0.5258
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:41<00:00,  1.07s/batch]
+---> Train loss: 1.3019
+---> Train acc: 0.5613
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.3248
+---> Valid acc: 0.5489
+Model is saved to: /kaggle/working/tuned/unet_epoch4.pth
+Training [5/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.2503
+---> Train acc: 0.5771
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.2633
+---> Valid acc: 0.5629
+Model is saved to: /kaggle/working/tuned/unet_epoch5.pth
+Training [6/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 1.2093
+---> Train acc: 0.5904
+Validate [6/10]: 100%|██████████| 13/13 [00:13<00:00,  1.00s/batch]
+---> Valid loss: 1.2534
+---> Valid acc: 0.5662
+Model is saved to: /kaggle/working/tuned/unet_epoch6.pth
+Training [7/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 1.1590
+---> Train acc: 0.6072
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.2607
+---> Valid acc: 0.5590
+Training [8/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.1396
+---> Train acc: 0.6117
+Validate [8/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.2166
+---> Valid acc: 0.5753
+Model is saved to: /kaggle/working/tuned/unet_epoch8.pth
+Training [9/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.0943
+---> Train acc: 0.6249
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: 1.1427
+---> Valid acc: 0.5976
+Model is saved to: /kaggle/working/tuned/unet_epoch9.pth
+Training [10/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.0715
+---> Train acc: 0.6333
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.3198
+---> Valid acc: 0.5312
+Training with parameters: {'lr': 0.0005, 'weight_decay': 0.001, 'optim': 'Adam'}
+Training [1/10]: 100%|██████████| 150/150 [02:39<00:00,  1.07s/batch]
+---> Train loss: 1.3988
+---> Train acc: 0.6104
+Validate [1/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.7087
+---> Valid acc: 0.4094
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: nan
+---> Train acc: 0.4507
+Validate [2/10]: 100%|██████████| 13/13 [00:13<00:00,  1.02s/batch]
+---> Valid loss: nan
+---> Valid acc: 0.4575
+Training [3/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: nan
+---> Train acc: 0.4562
+Validate [3/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.4575
+Training [4/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: nan
+---> Train acc: 0.4564
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.4575
+Training [5/10]: 100%|██████████| 150/150 [02:31<00:00,  1.01s/batch]
+---> Train loss: nan
+---> Train acc: 0.4564
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.4575
+Training [6/10]: 100%|██████████| 150/150 [02:32<00:00,  1.02s/batch]
+---> Train loss: nan
+---> Train acc: 0.4565
+Validate [6/10]: 100%|██████████| 13/13 [00:13<00:00,  1.02s/batch]
+---> Valid loss: nan
+---> Valid acc: 0.4575
+Training [7/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: nan
+---> Train acc: 0.4566
+Validate [7/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: nan
+---> Valid acc: 0.4575
+Training [8/10]: 100%|██████████| 150/150 [02:32<00:00,  1.02s/batch]
+---> Train loss: nan
+---> Train acc: 0.4563
+Validate [8/10]: 100%|██████████| 13/13 [00:13<00:00,  1.03s/batch]
+---> Valid loss: nan
+---> Valid acc: 0.4575
+Training [9/10]: 100%|██████████| 150/150 [02:33<00:00,  1.02s/batch]
+---> Train loss: nan
+---> Train acc: 0.4562
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.4575
+Training [10/10]: 100%|██████████| 150/150 [02:33<00:00,  1.03s/batch]
+---> Train loss: nan
+---> Train acc: 0.4566
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: nan
+---> Valid acc: 0.4575
+Training with parameters: {'lr': 0.0005, 'weight_decay': 0.001, 'optim': 'SGD'}
+Training [1/10]: 100%|██████████| 150/150 [02:33<00:00,  1.02s/batch]
+---> Train loss: 2.8464
+---> Train acc: 0.2069
+Validate [1/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 2.6761
+---> Valid acc: 0.2947
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:40<00:00,  1.07s/batch]
+---> Train loss: 1.7495
+---> Train acc: 0.4901
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.5295
+---> Valid acc: 0.5116
+Model is saved to: /kaggle/working/tuned/unet_epoch2.pth
+Training [3/10]: 100%|██████████| 150/150 [02:38<00:00,  1.05s/batch]
+---> Train loss: 1.3810
+---> Train acc: 0.5453
+Validate [3/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.4446
+---> Valid acc: 0.5291
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.2918
+---> Train acc: 0.5699
+Validate [4/10]: 100%|██████████| 13/13 [00:13<00:00,  1.02s/batch]
+---> Valid loss: 1.3037
+---> Valid acc: 0.5595
+Model is saved to: /kaggle/working/tuned/unet_epoch4.pth
+Training [5/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 1.2260
+---> Train acc: 0.5880
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.2820
+---> Valid acc: 0.5660
+Model is saved to: /kaggle/working/tuned/unet_epoch5.pth
+Training [6/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.1853
+---> Train acc: 0.5978
+Validate [6/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.2923
+---> Valid acc: 0.5558
+Training [7/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.1361
+---> Train acc: 0.6118
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.3069
+---> Valid acc: 0.5440
+Training [8/10]: 100%|██████████| 150/150 [02:35<00:00,  1.03s/batch]
+---> Train loss: 1.1031
+---> Train acc: 0.6229
+Validate [8/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.2249
+---> Valid acc: 0.5810
+Model is saved to: /kaggle/working/tuned/unet_epoch8.pth
+Training [9/10]: 100%|██████████| 150/150 [02:38<00:00,  1.05s/batch]
+---> Train loss: 1.0808
+---> Train acc: 0.6290
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.1236
+---> Valid acc: 0.6065
+Model is saved to: /kaggle/working/tuned/unet_epoch9.pth
+Training [10/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.0656
+---> Train acc: 0.6346
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.1258
+---> Valid acc: 0.5987
+Training with parameters: {'lr': 0.0003, 'weight_decay': 0.01, 'optim': 'Adam'}
+Training [1/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.6199
+---> Train acc: 0.6022
+Validate [1/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.2427
+---> Valid acc: 0.6080
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.4222
+---> Train acc: 0.5483
+Validate [2/10]: 100%|██████████| 13/13 [00:13<00:00,  1.03s/batch]
+---> Valid loss: 1.3428
+---> Valid acc: 0.5421
+Training [3/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.1558
+---> Train acc: 0.6131
+Validate [3/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.1285
+---> Valid acc: 0.6025
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 1.0710
+---> Train acc: 0.6342
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.1493
+---> Valid acc: 0.5889
+Training [5/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.0118
+---> Train acc: 0.6526
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.2224
+---> Valid acc: 0.5640
+Training [6/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 0.9961
+---> Train acc: 0.6530
+Validate [6/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.0137
+---> Valid acc: 0.6288
+Model is saved to: /kaggle/working/tuned/unet_epoch6.pth
+Training [7/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 0.9852
+---> Train acc: 0.6558
+Validate [7/10]: 100%|██████████| 13/13 [00:13<00:00,  1.04s/batch]
+---> Valid loss: 1.0736
+---> Valid acc: 0.6019
+Training [8/10]: 100%|██████████| 150/150 [02:33<00:00,  1.02s/batch]
+---> Train loss: 0.9638
+---> Train acc: 0.6638
+Validate [8/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.0330
+---> Valid acc: 0.6235
+Training [9/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 0.9263
+---> Train acc: 0.6733
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: 1.0029
+---> Valid acc: 0.6275
+Model is saved to: /kaggle/working/tuned/unet_epoch9.pth
+Training [10/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 0.9650
+---> Train acc: 0.6593
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 0.9631
+---> Valid acc: 0.6375
+Model is saved to: /kaggle/working/tuned/unet_epoch10.pth
+Training with parameters: {'lr': 0.0003, 'weight_decay': 0.01, 'optim': 'SGD'}
+Training [1/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 2.6767
+---> Train acc: 0.3270
+Validate [1/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: 2.5316
+---> Valid acc: 0.3857
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 1.8093
+---> Train acc: 0.4916
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.5916
+---> Valid acc: 0.5036
+Model is saved to: /kaggle/working/tuned/unet_epoch2.pth
+Training [3/10]: 100%|██████████| 150/150 [02:37<00:00,  1.05s/batch]
+---> Train loss: 1.4287
+---> Train acc: 0.5413
+Validate [3/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.7469
+---> Valid acc: 0.4665
+Training [4/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 1.3409
+---> Train acc: 0.5588
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.4186
+---> Valid acc: 0.5227
+Model is saved to: /kaggle/working/tuned/unet_epoch4.pth
+Training [5/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.2879
+---> Train acc: 0.5697
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.3412
+---> Valid acc: 0.5363
+Model is saved to: /kaggle/working/tuned/unet_epoch5.pth
+Training [6/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 1.2502
+---> Train acc: 0.5808
+Validate [6/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.3583
+---> Valid acc: 0.5283
+Training [7/10]: 100%|██████████| 150/150 [02:33<00:00,  1.02s/batch]
+---> Train loss: 1.2127
+---> Train acc: 0.5906
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.2651
+---> Valid acc: 0.5596
+Model is saved to: /kaggle/working/tuned/unet_epoch7.pth
+Training [8/10]: 100%|██████████| 150/150 [02:39<00:00,  1.07s/batch]
+---> Train loss: 1.1855
+---> Train acc: 0.5966
+Validate [8/10]: 100%|██████████| 13/13 [00:13<00:00,  1.00s/batch]
+---> Valid loss: 1.2881
+---> Valid acc: 0.5484
+Training [9/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.1581
+---> Train acc: 0.6056
+Validate [9/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.2600
+---> Valid acc: 0.5606
+Model is saved to: /kaggle/working/tuned/unet_epoch9.pth
+Training [10/10]: 100%|██████████| 150/150 [02:36<00:00,  1.05s/batch]
+---> Train loss: 1.1287
+---> Train acc: 0.6135
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.1875
+---> Valid acc: 0.5814
+Model is saved to: /kaggle/working/tuned/unet_epoch10.pth
+Training with parameters: {'lr': 0.0003, 'weight_decay': 0.001, 'optim': 'Adam'}
+Training [1/10]: 100%|██████████| 150/150 [02:35<00:00,  1.03s/batch]
+---> Train loss: 1.5179
+---> Train acc: 0.6186
+Validate [1/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 1.4631
+---> Valid acc: 0.5198
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:38<00:00,  1.05s/batch]
+---> Train loss: 1.2297
+---> Train acc: 0.5923
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.0642
+---> Valid acc: 0.6176
+Model is saved to: /kaggle/working/tuned/unet_epoch2.pth
+Training [3/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 0.9744
+---> Train acc: 0.6614
+Validate [3/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.0085
+---> Valid acc: 0.6214
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:32<00:00,  1.01s/batch]
+---> Train loss: 0.8872
+---> Train acc: 0.6833
+Validate [4/10]: 100%|██████████| 13/13 [00:13<00:00,  1.03s/batch]
+---> Valid loss: 1.0446
+---> Valid acc: 0.6057
+Training [5/10]: 100%|██████████| 150/150 [02:34<00:00,  1.03s/batch]
+---> Train loss: 0.8997
+---> Train acc: 0.6783
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 0.9088
+---> Valid acc: 0.6410
+Model is saved to: /kaggle/working/tuned/unet_epoch5.pth
+Training [6/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 0.8209
+---> Train acc: 0.6994
+Validate [6/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 0.8852
+---> Valid acc: 0.6511
+Model is saved to: /kaggle/working/tuned/unet_epoch6.pth
+Training [7/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 0.7998
+---> Train acc: 0.7053
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.02batch/s]
+---> Valid loss: 0.8850
+---> Valid acc: 0.6479
+Model is saved to: /kaggle/working/tuned/unet_epoch7.pth
+Training [8/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 0.7700
+---> Train acc: 0.7117
+Validate [8/10]: 100%|██████████| 13/13 [00:13<00:00,  1.04s/batch]
+---> Valid loss: 0.9641
+---> Valid acc: 0.6409
+Training [9/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 0.7547
+---> Train acc: 0.7166
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 0.9247
+---> Valid acc: 0.6365
+Training [10/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 0.7112
+---> Train acc: 0.7270
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.0610
+---> Valid acc: 0.6024
+Model is saved to: /kaggle/working/tuned/unet_0.0003_0.001_Adam.pth
+Training with parameters: {'lr': 0.0003, 'weight_decay': 0.001, 'optim': 'SGD'}
+Training [1/10]: 100%|██████████| 150/150 [02:33<00:00,  1.03s/batch]
+---> Train loss: 2.7073
+---> Train acc: 0.2615
+Validate [1/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 2.5730
+---> Valid acc: 0.3928
+Model is saved to: /kaggle/working/tuned/unet_epoch1.pth
+Training [2/10]: 100%|██████████| 150/150 [02:35<00:00,  1.03s/batch]
+---> Train loss: 1.8320
+---> Train acc: 0.4977
+Validate [2/10]: 100%|██████████| 13/13 [00:12<00:00,  1.04batch/s]
+---> Valid loss: 1.6422
+---> Valid acc: 0.5019
+Model is saved to: /kaggle/working/tuned/unet_epoch2.pth
+Training [3/10]: 100%|██████████| 150/150 [02:39<00:00,  1.06s/batch]
+---> Train loss: 1.4616
+---> Train acc: 0.5320
+Validate [3/10]: 100%|██████████| 13/13 [00:13<00:00,  1.01s/batch]
+---> Valid loss: 1.5093
+---> Valid acc: 0.5199
+Model is saved to: /kaggle/working/tuned/unet_epoch3.pth
+Training [4/10]: 100%|██████████| 150/150 [02:38<00:00,  1.06s/batch]
+---> Train loss: 1.3762
+---> Train acc: 0.5493
+Validate [4/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.3988
+---> Valid acc: 0.5386
+Model is saved to: /kaggle/working/tuned/unet_epoch4.pth
+Training [5/10]: 100%|██████████| 150/150 [02:33<00:00,  1.02s/batch]
+---> Train loss: 1.3230
+---> Train acc: 0.5615
+Validate [5/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.3843
+---> Valid acc: 0.5414
+Model is saved to: /kaggle/working/tuned/unet_epoch5.pth
+Training [6/10]: 100%|██████████| 150/150 [02:32<00:00,  1.02s/batch]
+---> Train loss: 1.2913
+---> Train acc: 0.5706
+Validate [6/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.3273
+---> Valid acc: 0.5528
+Model is saved to: /kaggle/working/tuned/unet_epoch6.pth
+Training [7/10]: 100%|██████████| 150/150 [02:38<00:00,  1.05s/batch]
+---> Train loss: 1.2691
+---> Train acc: 0.5773
+Validate [7/10]: 100%|██████████| 13/13 [00:12<00:00,  1.05batch/s]
+---> Valid loss: 1.3155
+---> Valid acc: 0.5515
+Model is saved to: /kaggle/working/tuned/unet_epoch7.pth
+Training [8/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 1.2416
+---> Train acc: 0.5836
+Validate [8/10]: 100%|██████████| 13/13 [00:12<00:00,  1.00batch/s]
+---> Valid loss: 1.2791
+---> Valid acc: 0.5619
+Model is saved to: /kaggle/working/tuned/unet_epoch8.pth
+Training [9/10]: 100%|██████████| 150/150 [02:35<00:00,  1.04s/batch]
+---> Train loss: 1.2190
+---> Train acc: 0.5902
+Validate [9/10]: 100%|██████████| 13/13 [00:12<00:00,  1.01batch/s]
+---> Valid loss: 1.2526
+---> Valid acc: 0.5659
+Model is saved to: /kaggle/working/tuned/unet_epoch9.pth
+Training [10/10]: 100%|██████████| 150/150 [02:36<00:00,  1.04s/batch]
+---> Train loss: 1.1890
+---> Train acc: 0.5973
+Validate [10/10]: 100%|██████████| 13/13 [00:12<00:00,  1.03batch/s]
+---> Valid loss: 1.2874
+---> Valid acc: 0.5520

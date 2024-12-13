@@ -1,0 +1,202 @@
+Training [1/30]: 100%|██████████| 183/183 [03:20<00:00,  1.10s/batch]
+---> Train loss: 1.1750
+---> Train acc: 0.7433
+Validate [1/30]: 100%|██████████| 70/70 [01:13<00:00,  1.05s/batch]
+---> Valid loss: 1.0525
+---> Valid acc: 0.7566
+Model is saved to: /kaggle/working/models/unet-res_epoch1.pth
+[34m[1mwandb[0m: [33mWARNING[0m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Training [2/30]: 100%|██████████| 183/183 [03:20<00:00,  1.10s/batch]
+---> Train loss: 0.9199
+---> Train acc: 0.7691
+Validate [2/30]: 100%|██████████| 70/70 [01:13<00:00,  1.05s/batch]
+---> Valid loss: 0.8349
+---> Valid acc: 0.7718
+Model is saved to: /kaggle/working/models/unet-res_epoch2.pth
+Training [3/30]: 100%|██████████| 183/183 [03:21<00:00,  1.10s/batch]
+---> Train loss: 0.7358
+---> Train acc: 0.8016
+Validate [3/30]: 100%|██████████| 70/70 [01:12<00:00,  1.04s/batch]
+---> Valid loss: 0.6472
+---> Valid acc: 0.8128
+Model is saved to: /kaggle/working/models/unet-res_epoch3.pth
+Training [4/30]: 100%|██████████| 183/183 [03:19<00:00,  1.09s/batch]
+---> Train loss: 0.5996
+---> Train acc: 0.8246
+Validate [4/30]: 100%|██████████| 70/70 [01:12<00:00,  1.04s/batch]
+---> Valid loss: 0.4903
+---> Valid acc: 0.8512
+Model is saved to: /kaggle/working/models/unet-res_epoch4.pth
+Training [5/30]: 100%|██████████| 183/183 [03:20<00:00,  1.09s/batch]
+---> Train loss: 0.5151
+---> Train acc: 0.8469
+Validate [5/30]: 100%|██████████| 70/70 [01:12<00:00,  1.04s/batch]
+---> Valid loss: 0.7172
+---> Valid acc: 0.7428
+Training [6/30]: 100%|██████████| 183/183 [03:19<00:00,  1.09s/batch]
+---> Train loss: 0.4581
+---> Train acc: 0.8665
+Validate [6/30]: 100%|██████████| 70/70 [01:13<00:00,  1.05s/batch]
+---> Valid loss: 0.3304
+---> Valid acc: 0.8999
+Model is saved to: /kaggle/working/models/unet-res_epoch6.pth
+Training [7/30]: 100%|██████████| 183/183 [03:19<00:00,  1.09s/batch]
+---> Train loss: 0.3518
+---> Train acc: 0.8939
+Validate [7/30]: 100%|██████████| 70/70 [01:13<00:00,  1.05s/batch]
+---> Valid loss: 0.2933
+---> Valid acc: 0.9110
+Model is saved to: /kaggle/working/models/unet-res_epoch7.pth
+Training [8/30]: 100%|██████████| 183/183 [03:19<00:00,  1.09s/batch]
+---> Train loss: 0.3183
+---> Train acc: 0.9027
+Validate [8/30]: 100%|██████████| 70/70 [01:13<00:00,  1.05s/batch]
+---> Valid loss: 0.2563
+---> Valid acc: 0.9180
+Model is saved to: /kaggle/working/models/unet-res_epoch8.pth
+Training [9/30]: 100%|██████████| 183/183 [03:20<00:00,  1.09s/batch]
+---> Train loss: 0.2956
+---> Train acc: 0.9088
+Validate [9/30]: 100%|██████████| 70/70 [01:13<00:00,  1.05s/batch]
+---> Valid loss: 0.2520
+---> Valid acc: 0.9200
+Model is saved to: /kaggle/working/models/unet-res_epoch9.pth
+Training [10/30]: 100%|██████████| 183/183 [03:20<00:00,  1.10s/batch]
+---> Train loss: 0.2811
+---> Train acc: 0.9120
+Validate [10/30]: 100%|██████████| 70/70 [01:13<00:00,  1.05s/batch]
+---> Valid loss: 0.2149
+---> Valid acc: 0.9286
+Model is saved to: /kaggle/working/models/unet-res_epoch10.pth
+Training [11/30]: 100%|██████████| 183/183 [03:20<00:00,  1.10s/batch]
+---> Train loss: 0.2305
+---> Train acc: 0.9246
+Validate [11/30]: 100%|██████████| 70/70 [01:13<00:00,  1.04s/batch]
+---> Valid loss: 0.1818
+---> Valid acc: 0.9365
+Model is saved to: /kaggle/working/models/unet-res_epoch11.pth
+Training [12/30]: 100%|██████████| 183/183 [03:20<00:00,  1.09s/batch]
+---> Train loss: 0.2219
+---> Train acc: 0.9272
+Validate [12/30]: 100%|██████████| 70/70 [01:12<00:00,  1.04s/batch]
+---> Valid loss: 0.1835
+---> Valid acc: 0.9392
+Training [13/30]: 100%|██████████| 183/183 [03:20<00:00,  1.10s/batch]
+---> Train loss: 0.2041
+---> Train acc: 0.9313
+Validate [13/30]: 100%|██████████| 70/70 [01:15<00:00,  1.07s/batch]
+---> Valid loss: 0.1678
+---> Valid acc: 0.9411
+Model is saved to: /kaggle/working/models/unet-res_epoch13.pth
+Training [14/30]: 100%|██████████| 183/183 [03:23<00:00,  1.11s/batch]
+---> Train loss: 0.1945
+---> Train acc: 0.9340
+Validate [14/30]: 100%|██████████| 70/70 [01:14<00:00,  1.06s/batch]
+---> Valid loss: 0.1648
+---> Valid acc: 0.9426
+Model is saved to: /kaggle/working/models/unet-res_epoch14.pth
+Training [15/30]: 100%|██████████| 183/183 [03:23<00:00,  1.11s/batch]
+---> Train loss: 0.1924
+---> Train acc: 0.9354
+Validate [15/30]: 100%|██████████| 70/70 [01:14<00:00,  1.07s/batch]
+---> Valid loss: 0.1453
+---> Valid acc: 0.9483
+Model is saved to: /kaggle/working/models/unet-res_epoch15.pth
+Training [16/30]: 100%|██████████| 183/183 [03:24<00:00,  1.12s/batch]
+---> Train loss: 0.1890
+---> Train acc: 0.9370
+Validate [16/30]: 100%|██████████| 70/70 [01:14<00:00,  1.06s/batch]
+---> Valid loss: 0.1483
+---> Valid acc: 0.9473
+Training [17/30]: 100%|██████████| 183/183 [03:22<00:00,  1.11s/batch]
+---> Train loss: 0.1711
+---> Train acc: 0.9419
+Validate [17/30]: 100%|██████████| 70/70 [01:15<00:00,  1.07s/batch]
+---> Valid loss: 0.1361
+---> Valid acc: 0.9509
+Model is saved to: /kaggle/working/models/unet-res_epoch17.pth
+Training [18/30]: 100%|██████████| 183/183 [03:22<00:00,  1.11s/batch]
+---> Train loss: 0.2027
+---> Train acc: 0.9339
+Validate [18/30]: 100%|██████████| 70/70 [01:14<00:00,  1.07s/batch]
+---> Valid loss: 0.1674
+---> Valid acc: 0.9452
+Training [19/30]: 100%|██████████| 183/183 [03:22<00:00,  1.11s/batch]
+---> Train loss: 0.1838
+---> Train acc: 0.9387
+Validate [19/30]: 100%|██████████| 70/70 [01:15<00:00,  1.07s/batch]
+---> Valid loss: 0.1405
+---> Valid acc: 0.9509
+Training [20/30]: 100%|██████████| 183/183 [03:23<00:00,  1.11s/batch]
+---> Train loss: 0.1583
+---> Train acc: 0.9459
+Validate [20/30]: 100%|██████████| 70/70 [01:14<00:00,  1.06s/batch]
+---> Valid loss: 0.1167
+---> Valid acc: 0.9579
+Model is saved to: /kaggle/working/models/unet-res_epoch20.pth
+Training [21/30]: 100%|██████████| 183/183 [03:23<00:00,  1.11s/batch]
+---> Train loss: 0.1583
+---> Train acc: 0.9454
+Validate [21/30]: 100%|██████████| 70/70 [01:14<00:00,  1.07s/batch]
+---> Valid loss: 0.1318
+---> Valid acc: 0.9523
+Training [22/30]: 100%|██████████| 183/183 [03:24<00:00,  1.12s/batch]
+---> Train loss: 0.1873
+---> Train acc: 0.9369
+Validate [22/30]: 100%|██████████| 70/70 [01:14<00:00,  1.06s/batch]
+---> Valid loss: 0.1216
+---> Valid acc: 0.9556
+Training [23/30]: 100%|██████████| 183/183 [03:23<00:00,  1.11s/batch]
+---> Train loss: 0.1437
+---> Train acc: 0.9493
+Validate [23/30]: 100%|██████████| 70/70 [01:14<00:00,  1.07s/batch]
+---> Valid loss: 0.1125
+---> Valid acc: 0.9591
+Model is saved to: /kaggle/working/models/unet-res_epoch23.pth
+Training [24/30]: 100%|██████████| 183/183 [03:24<00:00,  1.12s/batch]
+---> Train loss: 0.1284
+---> Train acc: 0.9541
+Validate [24/30]: 100%|██████████| 70/70 [01:15<00:00,  1.07s/batch]
+---> Valid loss: 0.1086
+---> Valid acc: 0.9604
+Model is saved to: /kaggle/working/models/unet-res_epoch24.pth
+Training [25/30]: 100%|██████████| 183/183 [03:23<00:00,  1.11s/batch]
+---> Train loss: 0.1265
+---> Train acc: 0.9545
+Validate [25/30]: 100%|██████████| 70/70 [01:14<00:00,  1.06s/batch]
+---> Valid loss: 0.1036
+---> Valid acc: 0.9616
+Model is saved to: /kaggle/working/models/unet-res_epoch25.pth
+Training [26/30]: 100%|██████████| 183/183 [03:22<00:00,  1.11s/batch]
+---> Train loss: 0.1228
+---> Train acc: 0.9558
+Validate [26/30]: 100%|██████████| 70/70 [01:15<00:00,  1.07s/batch]
+---> Valid loss: 0.0981
+---> Valid acc: 0.9638
+Model is saved to: /kaggle/working/models/unet-res_epoch26.pth
+Training [27/30]: 100%|██████████| 183/183 [03:22<00:00,  1.11s/batch]
+---> Train loss: 0.1399
+---> Train acc: 0.9515
+Validate [27/30]: 100%|██████████| 70/70 [01:14<00:00,  1.06s/batch]
+---> Valid loss: 0.1505
+---> Valid acc: 0.9501
+Training [28/30]: 100%|██████████| 183/183 [03:21<00:00,  1.10s/batch]
+---> Train loss: 0.1394
+---> Train acc: 0.9517
+Validate [28/30]: 100%|██████████| 70/70 [01:14<00:00,  1.07s/batch]
+---> Valid loss: 0.1164
+---> Valid acc: 0.9585
+Training [29/30]: 100%|██████████| 183/183 [03:23<00:00,  1.11s/batch]
+---> Train loss: 0.1312
+---> Train acc: 0.9536
+Validate [29/30]: 100%|██████████| 70/70 [01:14<00:00,  1.06s/batch]
+---> Valid loss: 0.0962
+---> Valid acc: 0.9643
+Model is saved to: /kaggle/working/models/unet-res_epoch29.pth
+Training [30/30]: 100%|██████████| 183/183 [03:23<00:00,  1.11s/batch]
+---> Train loss: 0.1277
+---> Train acc: 0.9548
+Validate [30/30]: 100%|██████████| 70/70 [01:14<00:00,  1.06s/batch]
+---> Valid loss: 0.0960
+---> Valid acc: 0.9642
+Model is saved to: /kaggle/working/models/unet-res_epoch30.pth
