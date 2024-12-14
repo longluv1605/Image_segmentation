@@ -24,7 +24,8 @@ def predict_unet_res(img, unet_res, device=device):
     ])
     img_transformed = test_transform(img)
     unet_res.eval()
-    mask_logits = unet_res(img_transformed.unsqueeze(0).to(device))
+    with torch.no_grad():
+        mask_logits = unet_res(img_transformed.unsqueeze(0).to(device))
     mask = mask_logits.argmax(dim = 1).squeeze().cpu().numpy()
         
     return mask
