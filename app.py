@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 # import os
 # from torchvision import transforms, datasets
-import streamlit as st
 import numpy as np
 from PIL import Image
 import torch
@@ -60,7 +59,7 @@ class Unet_Resnet(nn.Module):
 model = Unet_Resnet(21).to(device)
 model = nn.DataParallel(model)
 model.load_state_dict(torch.load(
-    "unet-res_epoch30.pth",
+    "save/models/unet-res_epoch30.pth",
     map_location=torch.device('cpu'),
     weights_only = True
 ))
