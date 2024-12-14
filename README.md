@@ -1,6 +1,6 @@
 # Image Segmentation
 
-This project demonstrates semantic segmentation using a U-Net model with a ResNet backbone. The application is built using Streamlit for easy interaction and visualization.
+This project demonstrates semantic segmentation using a U-Net model with a ResNet backbone, additionally DSNet - a new architechture for semantic segmentation. The application is built using Streamlit for easy interaction and visualization.
 
 ## Table of Contents
 
