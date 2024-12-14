@@ -36,7 +36,8 @@ def predict_dsnet(img, dsnet, device=device):
     ])
     img_transformed = transform(img)
     dsnet.eval()
-    mask_logits = dsnet(img_transformed.unsqueeze(0).to(device))[2][0]
+    with torch.no_grad():
+        mask_logits = dsnet(img_transformed.unsqueeze(0).to(device))[2][0]
     mask = mask_logits.argmax(0).squeeze().cpu().numpy()
     return mask
 
