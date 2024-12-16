@@ -34,6 +34,8 @@ To run the Streamlit application, use the following command:
 streamlit run app.py
 ```
 
+`Note: You must rename your image to pascal_\<anything> to use our UNet-resnet or cityscapes_\<anything> to use DSNet finetuned.`
+
 ## Model
 
 - UNet
